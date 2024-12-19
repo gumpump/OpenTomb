@@ -96,7 +96,6 @@ int StateControl_Rat(struct entity_s *ent, struct ss_animation_s *ss_anim)
         ent->character->parameters.maximum[PARAM_AIR] = 100;
         switch(current_state)
         {
-            ent->dir_flag = ENT_MOVE_FORWARD;
             case TR_STATE_RAT_OW_FLOW: // -> 2
                 if(state->dead)
                 {
